@@ -3782,7 +3782,7 @@ button i {
   justify-content: end;
 }
 .cs-about-wrapper-1 .cs-about-wrap-in .cs-about-content-wrap .cs-about-content-in {
-  max-width: 637px;
+  /* max-width: 637px; */
 }
 .cs-about-wrapper-1 .cs-about-wrap-in .cs-about-content-wrap .cs-about-content-in .cs-about-title {
   margin-bottom: 20px;
@@ -3818,9 +3818,9 @@ button i {
   padding-left: calc((100% - 1320px) / 2);
 }
 .cs-about-wrapper-1.cs-about-2 .cs-about-img-area {
-  position: absolute;
-  top: 0;
-  left: 100px;
+  /* position: absolute;  */
+  /* top: 0;
+  left: 100px; */
 }
 .cs-about-wrapper-1.cs-about-2 .cs-about-list-wrap {
   margin-top: 350px;
@@ -3870,12 +3870,12 @@ button i {
 }
 @media screen and (min-width: 1366px) {
   .cs-about-wrapper-1.cs-about-2 .cs-about-img-area {
-    max-width: 50%;
+    /* max-width: 50%; */
   }
 }
 @media screen and (min-width: 1280px) {
   .cs-about-wrapper-1.cs-about-2 .cs-about-img-area {
-    max-width: 50%;
+    /* max-width: 50%; */
   }
 }
 @media screen and (max-width: 1199px) {
@@ -4261,7 +4261,7 @@ button i {
   overflow: hidden;
   width: auto;
 }
-.cs-client-card::before {
+/* .cs-client-card::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -4286,7 +4286,7 @@ button i {
 }
 .cs-client-card:hover h6 a {
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
   18. Counter Style

@@ -5697,7 +5697,7 @@ button i {
 .cs-quote-process-wrap .cs-quote-form-container .quote-form-content-in .cs-quote-form textarea {
   background: transparent;
   border-radius: 0px;
-  border: 1px solid #2F6263;
+  border: 1px solid #fff;
   color: rgba(255, 255, 255, 0.8);
   padding-left: 20px;
 }
@@ -6084,7 +6084,7 @@ button i {
   background: transparent;
   border-radius: 0px;
   border: none;
-  border-bottom: 1px solid #2f6263;
+  border-bottom: 1px solid #fff;
   color: rgba(255, 255, 255, 0.8);
 }
 .cs-form-cp-in form :focus-visible,
