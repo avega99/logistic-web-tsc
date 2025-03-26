@@ -1,13 +1,13 @@
 /*--------------------------------------------------------------
   27. Posts
 ----------------------------------------------------------------*/
-.cs-border-blog-single{
+.cs-border--single{
   height: 1px;
   background-color: $border;
   width: 100%;
 }
 
-.cs-single-blog-info{
+.cs-single--info{
   display: flex; 
   gap: 15px;
   margin-bottom: 10px;
@@ -22,7 +22,7 @@
   margin-left: 40px;
 }
 
-.cs-blog-tag-single{
+.cs--tag-single{
   display: flex;
   align-items: center;
   gap: 15px;
@@ -33,19 +33,19 @@
   }
 }
 
-.cs-blog-tag-social{
+.cs--tag-social{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
 }
 @media screen and (max-width: 600px) {
-  .cs-blog-tag-social{
+  .cs--tag-social{
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: flex-start;
-    .cs-blog-share{
+    .cs--share{
       ul{
         li{
           height: 35px;
@@ -55,7 +55,7 @@
     }
   }
 }
-.cs-social-common.cs-blog-share{
+.cs-social-common.cs--share{
   display: flex;
   gap: 15px;
   align-items: center;
@@ -70,7 +70,7 @@
   }
 }
 @media screen and (max-width: 991px) {
-  .cs-blog-single-page{
+  .cs--single-page{
     .row.for-bs > *:nth-child(-n+1) {
       padding-bottom: 50px;
     }
@@ -78,9 +78,9 @@
   .similar-post > *:nth-child(-n+2) {
     padding-bottom: 30px;
   }
-  .cs-blog-content-container{
+  .cs--content-container{
     .row{
-      .row.for-blog-standard > *:nth-child(-n+6) {
+      .row.for--standard > *:nth-child(-n+6) {
         padding: 10px;
         margin-bottom: 20px;
       }
@@ -88,9 +88,9 @@
   }
 }
 
-.cs-blog-content-container{
+.cs--content-container{
   .row{
-    .row.for-blog-standard > *:nth-child(-n+6) {
+    .row.for--standard > *:nth-child(-n+6) {
       padding: 10px;
       margin-bottom: 20px;
     }

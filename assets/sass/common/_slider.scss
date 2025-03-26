@@ -1,12 +1,12 @@
 /*--------------------------------------------------------------
   10. Slider Style
 ----------------------------------------------------------------*/
-.home1-blog-slider {
+.home1--slider {
   overflow: hidden;
 }
 
 @media screen and (min-width: 630px) {
-  .home1-blog-slider .swiper-slide {
+  .home1--slider .swiper-slide {
     width: 630px;
   }
 }

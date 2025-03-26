@@ -571,13 +571,13 @@
 .fa-blind:before {
   content: '\f29d';
 }
-.fa-blog:before {
+.fa-:before {
   content: '\f781';
 }
-.fa-blogger:before {
+.fa-ger:before {
   content: '\f37c';
 }
-.fa-blogger-b:before {
+.fa-ger-b:before {
   content: '\f37d';
 }
 .fa-bluetooth:before {
@@ -2695,7 +2695,7 @@
 .fa-meteor:before {
   content: '\f753';
 }
-.fa-microblog:before {
+.fa-micro:before {
   content: '\e01a';
 }
 .fa-microchip:before {

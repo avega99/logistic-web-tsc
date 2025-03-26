@@ -68,7 +68,7 @@
       onComplete: function () {
         $("#cs-logi-preloader").addClass("loaded");
         $("#logi-preloader")
-          .delay(800)
+          .delay(200)
           .fadeOut(function () {
             $(this).remove();
           });
@@ -530,9 +530,9 @@
       });
     }
 
-    // Home 1 Blog Slider Scripts
-    if ($(".home1-blog-slider").length) {
-      var blogSliderSwiper = new Swiper(".home1-blog-slider", {
+    // Home 1  Slider Scripts
+    if ($(".home1--slider").length) {
+      var SliderSwiper = new Swiper(".home1--slider", {
         speed: 1000,
         autoplay: false,
         slidesPerView: "auto",

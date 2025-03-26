@@ -32,7 +32,7 @@
 | 23. Call To Action
 | 24. Testimonial
 | 25. Project Case Study
-| 26. Blog
+| 26. 
 | 27. Post Page
 | 28. Pricing
 | 29. Text Moving
@@ -2592,12 +2592,12 @@ label {
 /*--------------------------------------------------------------
   10. Slider Style
 ----------------------------------------------------------------*/
-.home1-blog-slider {
+.home1--slider {
   overflow: hidden;
 }
 
 @media screen and (min-width: 630px) {
-  .home1-blog-slider .swiper-slide {
+  .home1--slider .swiper-slide {
     width: 630px;
   }
 }
@@ -5127,13 +5127,13 @@ button i {
 /*--------------------------------------------------------------
   27. Posts
 ----------------------------------------------------------------*/
-.cs-border-blog-single {
+.cs-border--single {
   height: 1px;
   background-color: #ECECEC;
   width: 100%;
 }
 
-.cs-single-blog-info {
+.cs-single--info {
   display: flex;
   gap: 15px;
   margin-bottom: 10px;
@@ -5149,16 +5149,16 @@ button i {
   margin-left: 40px;
 }
 
-.cs-blog-tag-single {
+.cs--tag-single {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-.cs-blog-tag-single ul li {
+.cs--tag-single ul li {
   margin-bottom: 0px !important;
 }
 
-.cs-blog-tag-social {
+.cs--tag-social {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5166,47 +5166,47 @@ button i {
 }
 
 @media screen and (max-width: 600px) {
-  .cs-blog-tag-social {
+  .cs--tag-social {
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: flex-start;
   }
-  .cs-blog-tag-social .cs-blog-share ul li {
+  .cs--tag-social .cs--share ul li {
     height: 35px;
     width: 35px;
   }
 }
-.cs-social-common.cs-blog-share {
+.cs-social-common.cs--share {
   display: flex;
   gap: 15px;
   align-items: center;
   padding-top: 0px;
 }
-.cs-social-common.cs-blog-share ul li {
+.cs-social-common.cs--share ul li {
   border: 1px solid #AD3147;
 }
-.cs-social-common.cs-blog-share ul li:last-child {
+.cs-social-common.cs--share ul li:last-child {
   margin: 0px;
 }
 
 @media screen and (max-width: 991px) {
-  .cs-blog-single-page .row.for-bs > *:nth-child(-n+1) {
+  .cs--single-page .row.for-bs > *:nth-child(-n+1) {
     padding-bottom: 50px;
   }
   .similar-post > *:nth-child(-n+2) {
     padding-bottom: 30px;
   }
-  .cs-blog-content-container .row .row.for-blog-standard > *:nth-child(-n+6) {
+  .cs--content-container .row .row.for--standard > *:nth-child(-n+6) {
     padding: 10px;
     margin-bottom: 20px;
   }
 }
-.cs-blog-content-container .row .row.for-blog-standard > *:nth-child(-n+6) {
+.cs--content-container .row .row.for--standard > *:nth-child(-n+6) {
   padding: 10px;
   margin-bottom: 20px;
 }
-.cs-blog-content-container .row > *:nth-child(-n-1) {
+.cs--content-container .row > *:nth-child(-n-1) {
   margin-bottom: 40px;
 }
 
@@ -5810,62 +5810,62 @@ button i {
   }
 }
 /*--------------------------------------------------------------
-  26. Blog
+  26. 
 ----------------------------------------------------------------*/
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-img-area {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--img-area {
   position: relative;
   margin-bottom: 25px;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-img-area .cs-blog-img {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--img-area .cs--img {
   -webkit-clip-path: polygon(10% 0, 85% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 80%, 0 10%);
           clip-path: polygon(10% 0, 85% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0% 80%, 0 10%);
   max-width: 630px;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-img-area .cs-blog-img.no-clip-img {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--img-area .cs--img.no-clip-img {
   -webkit-clip-path: none;
           clip-path: none;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-meta {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--meta {
   position: absolute;
   bottom: 30px;
   left: 30px;
   display: flex;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-meta .cs-blog-date {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--meta .cs--date {
   background: #a81621;
   padding: 5px 10px;
   margin-right: 15px;
   color: #fff;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-meta .cs-blog-date p {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--meta .cs--date p {
   margin: 0px;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-meta .cs-blog-author-meta {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--meta .cs--author-meta {
   background: #a81621;
   padding: 5px 10px;
   color: #fff;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-meta .cs-blog-author-meta p {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--meta .cs--author-meta p {
   margin: 0px;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-content .cs-blog-title {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--content .cs--title {
   margin-bottom: 10px;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-content .cs-blog-title a h6 {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--content .cs--title a h6 {
   transition: all 0.3s ease;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-content .cs-blog-title a:hover h6 {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--content .cs--title a:hover h6 {
   color: #a81621;
   transition: all 0.3s ease;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-content .cs-blog-title:hover h4 {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--content .cs--title:hover h4 {
   color: #a81621;
   transition: all 300ms ease-in-out;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-content .cs-blog-excerpt-text {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--content .cs--excerpt-text {
   margin-bottom: 25px;
 }
-.cs-blog-section-wrapper.blog-style-1 .cs-blog-content-container .cs-blog-items-container .cs-blog-item .cs-blog-content .cs-blog-btn span {
+.cs--section-wrapper.-style-1 .cs--content-container .cs--items-container .cs--item .cs--content .cs--btn span {
   margin-right: 5px;
 }
 
@@ -5916,7 +5916,7 @@ button i {
 }
 
 @media screen and (max-width: 630px) {
-  .cs-blog-items-container .cs-blog-item {
+  .cs--items-container .cs--item {
     padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
     padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
   }
